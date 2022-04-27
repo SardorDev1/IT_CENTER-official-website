@@ -1,5 +1,62 @@
 {
-    "mens": [
+    "uzb": [
+      {
+        "id": 1,
+        "name": "asdasdasd",
+        "date":"2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      }
+      
+    ],
+    "rus": [
       {
         "id": 1,
         "name": "",
@@ -9,48 +66,108 @@
       {
         "id": 2,
         "name": "Mens Casual Premium ",
-        "price": 20.000,
+        "date": "2.05.2022",
         "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
       },
       {
         "id": 3,
-        "name": "Mens Casual Slim Fit",
-        "price": 12.000,
-        "imgName": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
       },
       {
         "id": 4,
-        "name": "Back for Men",
-        "price": 50.000,
-        "imgName": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
-      }
-    ],
-    "women": [
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
       {
         "id": 5,
-        "name": "Rain Jacket Women Windbreaker ",
-        "price": 60.000,
-        "imgName": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
       },
       {
         "id": 6,
-        "name": "Opna Women's Short Sleeve ",
-        "price": 40.000,
-        "imgName": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
       },
       {
         "id": 7,
-        "name": "MBJ Women's Solid Short Sleeve ",
-        "price": 30.000,
-        "imgName": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
       },
       {
         "id": 8,
-        "name": "Back",
-        "price": 100.000,
-        "imgName": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
       }
       
+    ],
+    "eng": [
+      {
+        "id": 1,
+        "name": "",
+        "date":"2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Mens Casual Premium ",
+        "date": "2.05.2022",
+        "imgName": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      }
       
     ]
   }
