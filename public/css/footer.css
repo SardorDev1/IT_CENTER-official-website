@@ -1,0 +1,222 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+ 
+}
+
+.footer-distributed {
+    background-color: #29323c;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+ font-size: 30px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.footer-distributed h3 span {
+    color: #08fd00;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i{
+
+
+height: 100%;
+width:100%;
+display: inline-block;
+
+border-radius: 50%;
+position: relative;
+margin-left: 50px;
+z-index: 100;
+cursor: pointer;
+transform: scale(0.8);
+
+}
+.footer-distributed .footer-center i:after {
+	position: absolute;
+	content: '';
+	height: 100%;
+	width: 100%;
+    margin: auto;
+	border-radius: 50%;
+    left: 0;
+	border: 3px solid white;
+	animation: hamburger_puls 2s ease infinite;
+}
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+}
+
+
+.footer-distributed .footer-center p a {
+    color: #50ee5d;
+    text-decoration: none;
+    ;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    font-family: 'Poppins', sans-serif;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #20ff20;
+}
+.footer-distributed .footer-icons a:hover i{
+transform: rotate(360deg);
+transition: .5s;
+}
+.footer-distributed .footer-center i:hover{
+    transform: rotate(30deg) ;
+    transition: .5s;
+    }
+    #footer .footer-links a:hover {
+    color: #1af81a;
+    transition: .5s;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}       
+        
+
+        

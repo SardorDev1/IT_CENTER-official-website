@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+  
+  #kurslar .col-lg-12 h1{
+  color: #00c20a;
+  font-family: 'Dongle', sans-serif;
+  margin-top: 100px;
+  font-size: 40px;
+  font-weight: 700;
+  }
+  #kurslar .wrap{
+    max-width: 350px;
+    cursor: pointer;
+    min-height: 450px;
+    position: relative;
+    overflow: hidden;
+   box-shadow: 5px 5px 15px;
+    border: 1px solid silver;
+    border-radius: 10px;
+transition: .5s;
+    margin: auto;
+  }
+  #kurslar .wrap .imgBx{
+  margin: auto;
+  }
+  #kurslar .wrap .imgBx img{
+    max-width: 100%;
+  
+  transition: .5s;
+    min-height: 100%;
+  }
+  #kurslar .wrap:hover .imgBx img{
+      transform: scale(1.2);
+      filter: grayscale(1);
+  }
+  #kurslar .wrap:hover{
+    background:rgb(33, 37, 40);
+
+  }
+  #kurslar .wrap:hover .content  p {
+    color: white;
+  }
+  #kurslar .wrap .imgBx .box {
+position: absolute;
+top: 10px;
+opacity: 0;
+left: 0px;
+background-color: rgb(3, 168, 3);
+transition: .5s;
+font-weight: 700;
+padding:10px 20px;
+  }
+  #kurslar .wrap .imgBx .box h1{
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      color: white;
+   
+  }
+#kurslar .wrap:hover .imgBx .box {
+    position: absolute;
+    opacity: 1;
+top: 10px;
+left: 10px;
+}
+  label,input::placeholder{
+    font-size: 13px;
+  }
+  input{
+    font-style: 20px;
+  }
+  
+  #kurslar .wrap .content h1{
+    font-size: 23px;
+
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 25px;
+    color: rgb(3, 168, 3);
+  
+  }
+  
+  #kurslar .wrap .content  p{
+    font-size: 18px;
+transition: .5s;
+    font-weight: 400;
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+    margin-left: 10px;
+    
+  }      
+  #kurslar .wrap .content  p span{
+    font-size: 18px;
+    color: rgb(0, 2, 138);
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease;
+  }
+  #kurslar .wrap .content p span:hover{
+    color:rgb(3, 168, 3) ;
+  }
+
+  #kurslar .wrap:hover .abaut p{
+    color:silver;
+  }
+
+  #kurslar .wrap .abaut{
+      padding: 10px;
+  }
+  #kurslar .wrap .abaut p{
+      font-size: 20px;
+  color:rgb(73, 73, 73);
+  }
+
+  @media (max-width: 340px) {
+    #kurslar .wrap .abaut p {
+      font-size: 16px !important;
+    }
+    #kurslar .wrap .content p, p span {
+      font-size: 14px !important;
+    }
+  }
+  /*# sourceMappingURL=kurslar.css.map */
+  #kurslar ul li a{
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    transition: .2s;
+  }
+  #kurslar ul li a:hover{
+    color: rgb(2, 199, 2);
+  }
+  @media(min-width:1140px){
+    #kurslar .wrap{
+      width: 400px;
+    }
+  }
