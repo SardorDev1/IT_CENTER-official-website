@@ -23,10 +23,9 @@
   min-height: 450px;
   position: relative;
   overflow: hidden;
-  -webkit-box-shadow: 5px 5px 15px;
-          box-shadow: 5px 5px 15px;
-  border: 1px solid silver;
-  border-radius: 10px;
+
+
+  border-radius: 20px;
   -webkit-transition: .5s;
   transition: .5s;
   margin: auto;

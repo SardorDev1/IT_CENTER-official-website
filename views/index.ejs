@@ -40,6 +40,7 @@
                             <li id="startups"><a href="#startup" data-after="Startup">Startup</a></li>
                             <li id="hodimlar"><a href="#Hodimlar" data-after="Hodimlar">Jamoa</a></li>
                             <li id="Kurslar"><a href="#kurslar" data-after="Kurslar">Kurslar</a></li>
+                            <li id="Kurslar"><a href="https://payme.uz/home/main?" data-after="payment" title="Online to'lov xizmati">Online To'lov</a></li>
                         </ul>
                     </div>
                 </div>
@@ -72,213 +73,38 @@
     </header>
     <section id="news">
         <h6 class="wow bounceInDown" data-wow-duration="3s">Yangiliklar</h6>
-        <% data.uzb.forEach((item) => { %> 
+    
         <div class="news-wrap">
             <div class="container">
+                
                 <div class="row m-5">
-                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp news-card " data-wow-duration="2s">
+                    <% data.uzb.forEach((item) => { %> 
+                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-item-id="<%= item.id %>"  data-wow-duration="4s">
                         <div class="news-grid">
                             <div class="news-grid-image">
-                                <img width="300px" height="300px"
-                                    src="https://it-park.uz/storage/images/newsimage/IMG_5584_1593529752.JPG"
-                                    alt="error img">
-                                <div class="news-grid-box">
-                                    <h1>News</h1>
-                                  
-                                </div>
-                            </div>
-                            <div class="news-grid-txt">
-                                <span>News</span>
-                                <h2>Sun'iy intellekt</h2>
-                                <ul>
-                                    <li> <i class="fa fa-calendar" aria-hidden="true"></i> 02.01.2022</li>
-                                </ul>
-                                <p>IT park kubogi:"Sun'iy intellekt" 
-                                    yo'nalishi bo'yicha g'oliblar! </p>
-                                <a href="https://it-park.uz/ru/itpark/news">Batafsil</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-wow-duration="4s">
-                        <div class="news-grid">
-                            <div class="news-grid-image">
-                                <img width="300px" height="300px"
-                                    src="https://avatars.mds.yandex.net/i?id=2a0000017a02016a9c0ce157894fa2bef997-4117598-images-thumbs&n=13"
-                                    alt="error img">
+                                <img  src="<%= item.imgName %> " alt=""/>
                                 <div class="news-grid-box">
                                     <h1>News</h1>
                                 </div>
                             </div>
                             <div class="news-grid-txt">
                                 <span>News</span>
-                                <h2>EdTechHub Bukhara</h2>
+                                <h2><%= item.name %></h2>
                                 <ul>
-                                    <li> <i class="fa fa-calendar" aria-hidden="true"></i> 01.26.2022</li>
+                                    <li> <i class="fa fa-calendar" aria-hidden="true"></i> <%= item.date %></li>
                                 </ul>
-                                <p>IT Park EdTechHub Bukhora dasturi doirasi Demo kuni o'tkazildi</p>
+                                <p><%= item.malumot  %> </p>
                                 <a href="https://it-park.uz/ru/itpark/news">Batafsil</a>
                             </div>
                         </div>
+                       
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-wow-duration="2s">
-                        <div class="news-grid">
-                            <div class="news-grid-image">
-                                <img width="300px" height="300px"
-                                    src="http://www.samsl.uz/uploads/gallery/177/d29bd8989c868d0d4bb2c58fd88bb1b7.jpg"
-                                    alt="error img">
-                                <div class="news-grid-box">
-                                    <h1>News</h1>
-                                </div>
-                            </div>
-                            <div class="news-grid-txt">
-                                <span>News</span>
-                                <h2>Uzbekiston uchun 100 g'oya</h2>
-                                <ul>
-                                    <li> <i class="fa fa-calendar" aria-hidden="true"></i> 01.24.2022</li>
-                                </ul>
-                                <p>"O'zbekiston uchun 100 g'oya" Respublika tanlovi G'oliblari</p>
-                                <a href="https://it-park.uz/ru/itpark/news">Batafsil</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInDown" data-wow-duration="2s">
-                        <div class="news-grid">
-                            <div class="news-grid-image">
-                                <img width="300px" height="300px"
-                                    src="https://igenius.uz/public/admin-files/menus/5e95a0cb34618.jpg" alt="error img">
-                                <div class="news-grid-box">
-                                    <h1>News</h1>
-                                </div>
-                            </div>
-                            <div class="news-grid-txt">
-                                <span>News</span>
-                                <h2>Geneysis inovation</h2>
-                                <ul>
-                                    <li> <i class="fa fa-calendar" aria-hidden="true"></i> 01.20.2022</li>
-                                </ul>
-                                <p>IT Park rezidenti “Genesis Innovation” o‘zining 3 yilligini nishonlandi
-
-                                </p>
-                                <a href="https://it-park.uz/ru/itpark/news">Batafsil</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInDown" data-wow-duration="4s">
-                        <div class="news-grid">
-                            <div class="news-grid-image">
-                                <img width="300px" height="300px"
-                                    src="http://cdn.beta.qalampir.uz/uploads/Fc/m_Rl20T2nBPZmswQn4M2tTm8JcuA06f5.jpg"
-                                    alt="error img">
-                                <div class="news-grid-box">
-                                    <h1>News</h1>
-                                </div>
-                            </div>
-                            <div class="news-grid-txt">
-                                <span>News</span>
-                                <h2>Vazir grantlari</h2>
-                                <ul>
-                                    <li> <i class="fa fa-calendar" aria-hidden="true"></i> 01.18.2022</li>
-                                </ul>
-                                <p>“Vazir grantlari” uchun hikoyalar tanlovi: qanday qilib ishtirokc...
-
-                                </p>
-                                <a href="https://it-park.uz/ru/itpark/news">Batafsil</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInDown" data-wow-duration="2s">
-                        <div class="news-grid">
-                            <div class="news-grid-image">
-                                <img width="300px" height="300px"
-                                    src="https://it-park.uz/storage/images/newsimage/IMG_5245%20(%D0%9A%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C)_1627359772.JPG"
-                                    alt="error img">
-                                <div class="news-grid-box">
-                                    <h1>News</h1>
-                                </div>
-                            </div>
-                            <div class="news-grid-txt">
-                                <span>News</span>
-                                <h2>IT-PARK EPAM</h2>
-                                <ul>
-                                    <li> <i class="fa fa-calendar" aria-hidden="true"></i> 01.16.2022</li>
-                                </ul>
-                                <p>IT Park EPAM Systems bilan hamkorlikda HR mutaxassislari uchun ma...
-                                </p>
-                                <a href="https://it-park.uz/ru/itpark/news">Batafsil</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp " data-wow-duration="2s">
-                        <div class="news-grid">
-                            <div class="news-grid-image">
-                                <img width="300px" height="300px"
-                                    src="http://pivot270.com/wp-content/uploads/2015/08/3.jpg" alt="error img">
-                                <div class="news-grid-box">
-                                    <h1>News</h1>
-                                </div>
-                            </div>
-                            <div class="news-grid-txt">
-                                <span>News</span>
-                                <h2>Epam bilan bank sektori</h2>
-                                <ul>
-                                    <li> <i class="fa fa-calendar" aria-hidden="true"></i> 01.14.2022</li>
-                                </ul>
-                                <p>Epam Systems bilan bank sektorini avtomatlashtirish va raqamlasht...
-                                </p>
-                                <a href="https://it-park.uz/ru/itpark/news">Batafsil</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp " data-wow-duration="4s">
-                        <div class="news-grid">
-                            <div class="news-grid-image">
-                                <img width="300px" height="300px"
-                                    src="http://infocom.uz/wp-content/uploads/it-park-17-09-2019-2.jpg"
-                                    alt="error img">
-                                <div class="news-grid-box">
-                                    <h1>News</h1>
-                                </div>
-                            </div>
-                            <div class="news-grid-txt">
-                                <span>News</span>
-                                <h2>IT-PARK</h2>
-                                <ul>
-                                    <li> <i class="fa fa-calendar" aria-hidden="true"></i> 01.10.2022</li>
-                                 
-                                </ul>
-                                <p>
-                                    IT Parkda O‘zbekiston Respublikasi elchilari bilan uchrashuv bo‘l...</p>
-                                <a href="https://it-park.uz/ru/itpark/news">Batafsil</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" col-lg-4 col-md-6 col-sm-12 wow bounceInUp " data-wow-duration="2s">
-                        <div class="news-grid">
-                            <div class="news-grid-image">
-                                <img width="300px" height="300px"
-                                    src="https://im0-tub-ru.yandex.net/i?id=b0a9c08cb336d235ea6c3ec69732f15e-l&ref=rim&n=13&w=640&h=640"
-                                    alt="error img">
-                                <div class="news-grid-box">
-                                    <h1>News</h1>
-                                </div>
-                            </div>
-                            <div class="news-grid-txt">
-                                <span>News</span>
-                                <h2>Qozog'izton IT-kompaniyasi</h2>
-                                <ul>
-                                    <li> <i class="fa fa-calendar" aria-hidden="true"></i>01.06.2022</li>
-                                 
-                                </ul>
-                                <p>Qozog‘istonning IT kompaniyalari O‘zbekiston bozorida <br> chiqadi
-                                </p>
-                                <a href="https://it-park.uz/ru/itpark/news">Batafsil</a>
-                            </div>
-                        </div>
-                    </div>
+                   
+                    <% }) %>
                 </div>
             </div>
         </div>
-<% }) %>
+
         </div>
 
     </section>
@@ -819,10 +645,10 @@
 
 
 </body>
-<script src="../js/mixitup.min.js"></script>
-<script src="../js/AI.js"></script>
-<script src="../js/wow.min.js"></script>
-<script src="../js/app.js"></script>
+<script src="./js/mixitup.min.js"></script>
+<script src="./js/AI.js"></script>
+<script src="./js/wow.min.js"></script>
+<script src="./js/app.js"></script>
 
 
 <script>
