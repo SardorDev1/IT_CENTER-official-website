@@ -40,7 +40,6 @@
                             <li id="startups"><a href="#startup" data-after="Startup">Startup</a></li>
                             <li id="hodimlar"><a href="#Hodimlar" data-after="Hodimlar">Jamoa</a></li>
                             <li id="Kurslar"><a href="#kurslar" data-after="Kurslar">Kurslar</a></li>
-                            <li id="Kurslar"><a href="https://payme.uz/home/main?" data-after="payment" title="Online to'lov xizmati">Online To'lov</a></li>
                         </ul>
                     </div>
                 </div>
@@ -76,37 +75,34 @@
     
         <div class="news-wrap">
             <div class="container">
-                
                 <div class="row m-5">
                     <% data.uzb.forEach((item) => { %> 
-                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-item-id="<%= item.id %>"  data-wow-duration="4s">
+                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp news-card " data-item-id="<%= item.id %>" data-wow-duration="2s">
                         <div class="news-grid">
                             <div class="news-grid-image">
-                                <img  src="<%= item.imgName %> " alt=""/>
+                                <img width="300px" height="300px"
+                                    src="<%= item.imgName %>"
+                                    alt="error img">
                                 <div class="news-grid-box">
                                     <h1>News</h1>
+                                  
                                 </div>
                             </div>
                             <div class="news-grid-txt">
                                 <span>News</span>
                                 <h2><%= item.name %></h2>
                                 <ul>
-                                    <li> <i class="fa fa-calendar" aria-hidden="true"></i> <%= item.date %></li>
+                                    <li> <i class="fa fa-calendar" aria-hidden="true"></i><%= item.date %></li>
                                 </ul>
-                                <p><%= item.malumot  %> </p>
+                                <p><%= item.malumot %></p>
                                 <a href="https://it-park.uz/ru/itpark/news">Batafsil</a>
                             </div>
                         </div>
-                       
                     </div>
-                   
                     <% }) %>
                 </div>
-            </div>
         </div>
-
-        </div>
-
+    </div>
     </section>
 
     <section id="startup">
@@ -420,8 +416,8 @@
             </li>
         
           </ul>
-        <div class="container-fluid m-auto">
-        <div class="row m-auto ">
+        <div class="container-fluid p-5">
+        <div class="row m-5 ">
             <div class=" cards col-lg-4 col-md-6 mix dasturlash mt-5 mb-5 ">
                 <div class="wrap">
                     <div class="imgBx">
@@ -645,10 +641,10 @@
 
 
 </body>
-<script src="./js/mixitup.min.js"></script>
-<script src="./js/AI.js"></script>
-<script src="./js/wow.min.js"></script>
-<script src="./js/app.js"></script>
+<script src="../js/mixitup.min.js"></script>
+<script src="../js/AI.js"></script>
+<script src="../js/wow.min.js"></script>
+<script src="../js/app.js"></script>
 
 
 <script>

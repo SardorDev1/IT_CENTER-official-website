@@ -40,6 +40,7 @@ var alanBtnInstance = alanBtn({
         //call client code that will react on the received command
       }
 	  if (commandData.command === "home") {
+	
 		home.click()
       }
 	  if (commandData.command === "news") {

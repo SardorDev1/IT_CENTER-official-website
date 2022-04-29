@@ -17,15 +17,19 @@
   font-weight: 700;
 }
 
+#kurslar .cards {
+  max-width: 100%;
+}
+
 #kurslar .wrap {
-  max-width: 350px;
+  max-width: 500px;
   cursor: pointer;
   min-height: 450px;
   position: relative;
   overflow: hidden;
-
-
-  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 15px;
+          box-shadow: 0px 0px 15px;
+  border-radius: 10px;
   -webkit-transition: .5s;
   transition: .5s;
   margin: auto;
@@ -43,8 +47,8 @@
 }
 
 #kurslar .wrap:hover .imgBx img {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
 }
@@ -169,11 +173,5 @@ input {
 
 #kurslar ul li a:hover {
   color: #02c702;
-}
-
-@media (min-width: 1140px) {
-  #kurslar .wrap {
-    width: 400px;
-  }
 }
 /*# sourceMappingURL=kurslar.css.map */
